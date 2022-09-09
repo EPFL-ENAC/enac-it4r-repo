@@ -22,11 +22,31 @@ Hi! Thanks for taking the time to contribute to {YOUR-REPO-NAME}.
 
 ## Pull Request Guidelines
 
+### Timeline example
+1. - Create an issue (fix/feature/etc..)
+2. - Create branch from issue
+  - the issue's title should be what you expect your branch name to be
+3. - Checkout locally, push commits to github
+4. - Create pull-request from branch
+5. - Merge pull-request
+  - To avoid merge commit like this:
+     'Merge pull request #3 from EPFL-ENAC/2-bug-remove-ecoinvent-embodied-data
+  - Replace the github automatic merge commit message by the a conventional-changelog valid commit message usually a simple copy/paste from the pull-request title is enough
+  - see this [blog post](https://mokacoding.com/blog/better-merging-for-github-pull-requests/) for an example
+6. - Issue is auto-close
+
 ### We Develop with Github
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-### We Use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow), So All Code Changes Happen Through Pull Requests
+### We Use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow),
+
+- All Code Changes Happen Through Pull Requests
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow)). We actively welcome your pull requests:
+
+- If your pull request addresses an issue, link the issue so that issue stakeholders are aware of the pull request and vice versa.
+
+- It's better to create a branch from an issue, the issue number will directly be in the branch name
+  - see [discussion for reference](https://github.com/github-community/community/discussions/12290)
 
 ### Before you start
 
@@ -141,7 +161,7 @@ $ make install # install the dependencies of the project
 
 ## Project Structure
 
-- **`couchdb`**: contains the data and database bootstrap code for couchdb
+- **`db`**: contains the data and database bootstrap code for the db
 - **`frontend`**: contains the source code. The codebase is written in typescript using class components for vue2 and vuetify as the library component. And ECharts as the chart library.
 
 ## Financial Contribution
@@ -151,7 +171,7 @@ We also welcome financial contributions. Please contact us directly.
 ## Commit Lint
 
 We follow a commit message convention, to have consistent git messages. The goal is to increase readability and ease of contribution
-    - we use [commit-lint](https://github.com/conventional-changelog/commitlint)
+    - we use [commit-lint with the conventional-changelog extension](https://github.com/conventional-changelog/commitlint)
 
 ## Credits
 
