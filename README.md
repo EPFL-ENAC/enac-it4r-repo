@@ -7,4 +7,4 @@ Template with licences / github templates and contributing processes
 - [ ] Replace `{YOUR-REPO-NAME}`  by the name of your repo
 - [ ] Check if you need all those labels: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/labels
 - [ ] Create your first milestone: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/milestones
-- [ ] Protect your branch if you're a pro user: https://github.com/EPFL-ENAC/enac-it4r-repo/settings/branches
+- [ ] Protect your branch if you're a pro user: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings/branches
