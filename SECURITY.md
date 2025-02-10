@@ -19,8 +19,8 @@ We currently support the following versions with security updates:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.x     | :white_check_mark: |
-| 0.x     | :x:                |
+| 1.x     | ✅                |
+| 0.x     | ❌                |
 
 ## Security Updates
 
