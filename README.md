@@ -11,5 +11,5 @@ Template with licences / github templates and contributing processes
 - [ ] Check if you need all those labels: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/labels
 - [ ] Create your first milestone: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/milestones
 - [ ] Protect your branch if you're a pro user: https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/settings/branches
-
+- [ ] Modify `SECURITY.md` file if needed. 
 
