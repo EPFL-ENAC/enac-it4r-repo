@@ -7,6 +7,7 @@ If you discover a security vulnerability within this project, please follow thes
 1. **Do not open an issue**. This ensures that the vulnerability is not publicly disclosed until a fix is in place.
 2. Send an email to [enacit4research@epfl.ch](mailto:enacit4research@epfl.ch) with the following details:
     - A description of the vulnerability.
+    - This repo's name.
     - Steps to reproduce the issue.
     - Any potential impact it may have.
     - Your contact information.
