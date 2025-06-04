@@ -1,13 +1,33 @@
-# Describe your changes
+## What does this change?
 
-Please explain the purpose and scope of your contribution.
+<!-- Briefly describe what you're adding, fixing, or improving -->
 
-# Related GitHub issues and pull requests
+## Why is this needed?
 
-- Ref: #
+<!-- Explain the problem this solves or the improvement this brings -->
 
-## Checklist before requesting a review
+## Type of change
 
-- [ ] I have performed a self-review of my code
-- [ ] When resolving a specific issue, it's referenced in the PR's title (e.g. `fix #xxx[,#xxx]`, where "xxx" is the issue number)
-- [ ] Don't forget to link PR to issue if you are solving one.
+Please check the type that applies:
+
+- [ ] 🐛 Bug fix
+- [ ] ✨ New feature  
+- [ ] 📝 Documentation update
+- [ ] 🎨 Design/UI improvement
+- [ ] 🔧 Configuration change
+- [ ] 🧹 Code cleanup
+
+## How to test this
+
+<!-- How can reviewers verify this works? -->
+- [ ] I've tested this change locally
+- [ ] Steps to test: (describe if needed)
+
+## Screenshots (if applicable)
+
+<!-- For UI changes, drag & drop screenshots here -->
+
+## Related issues
+
+- Closes #
+- Related to #
