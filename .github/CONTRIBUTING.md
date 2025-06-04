@@ -12,9 +12,9 @@ Thanks for your interest in contributing! 🎉
 
 ## Need Help?
 
-- 💬 Join our [discussions](https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/discussions)
-- 📋 Use [issue templates](https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/issues/new/choose) to report bugs or request features
-- 📖 Read our [Code of Conduct](https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/blob/main/CODE_OF_CONDUCT.md)
+- 💬 Join our [discussions](https://github.com/EPFL-ENAC/{ YOUR-REPO-NAME }/discussions)
+- 📋 Use [issue templates](https://github.com/EPFL-ENAC/{ YOUR-REPO-NAME }/issues/new/choose) to report bugs or request features
+- 📖 Read our [Code of Conduct](https://github.com/EPFL-ENAC/{ YOUR-REPO-NAME }/blob/main/CODE_OF_CONDUCT.md)
 
 ## Development Setup
 
