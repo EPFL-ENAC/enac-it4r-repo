@@ -350,6 +350,12 @@ print_info "Removing setup script and updating Makefile..."
 sed '/# SETUP SECTION START/,/# SETUP SECTION END/d' Makefile > Makefile.tmp
 mv Makefile.tmp Makefile
 
+# Remove the template file since we've generated the final README.md
+if [ -f "README.template.md" ]; then
+    rm "README.template.md"
+    print_success "Removed README.template.md"
+fi
+
 print_success "Setup files cleaned up!"
 echo
 
