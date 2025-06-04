@@ -2,9 +2,27 @@
 
 Template with licences / github templates and contributing processes
 
-## Setup
+## For New Repositories
 
-To set up the development environment and git hooks, run:
+If you're setting up a new repository based on this template:
+
+1. **First-time setup:**
+
+   ```bash
+   make setup
+   ```
+
+   This will run an interactive script to configure your repository with project-specific details.
+
+2. **Regular development setup:**
+   ```bash
+   make install
+   ```
+   This installs dependencies and sets up git hooks.
+
+## For Template Development
+
+To set up the development environment and git hooks for working on this template itself, run:
 
 ```bash
 make install
@@ -14,6 +32,7 @@ This will install npm dependencies and configure git hooks using Lefthook.
 
 ## Available Commands
 
+- `make setup` - **For new repositories**: Interactive setup from template
 - `make install` - Install dependencies and set up git hooks
 - `make clean` - Clean node_modules and package-lock.json
 - `make uninstall` - Remove git hooks and clean dependencies

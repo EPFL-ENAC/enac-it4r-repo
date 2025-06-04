@@ -1,0 +1,34 @@
+# Prettier ignore file
+# Files that Prettier cannot parse
+
+# Build and dependency files
+node_modules/
+package-lock.json
+
+# Makefiles
+Makefile
+*.mk
+
+# Shell scripts
+*.sh
+
+# Git files
+.git/
+.gitignore
+
+# Prettier config files
+.prettierignore
+
+# Lock files
+*.lock
+
+# Logs
+*.log
+
+# Other config files that don't need formatting
+.editorconfig
+lefthook.yml
+commitlint.config.js
+
+# CITATION files
+CITATION.cff
