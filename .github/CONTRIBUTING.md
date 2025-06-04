@@ -11,6 +11,7 @@ Thanks for your interest in contributing! 🎉
 5. **Submit** a pull request
 
 ## Need Help?
+
 - 💬 Join our [discussions](https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/discussions)
 - 📋 Use [issue templates](https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/issues/new/choose) to report bugs or request features
 - 📖 Read our [Code of Conduct](https://github.com/EPFL-ENAC/{YOUR-REPO-NAME}/blob/main/CODE_OF_CONDUCT.md)
@@ -26,6 +27,7 @@ make install  # Install dependencies
 ## Commit Messages
 
 We use conventional commits for consistency:
+
 - `feat: add new feature`
 - `fix: resolve bug`
 - `docs: update documentation`
@@ -52,31 +54,37 @@ We use conventional commits for consistency:
 6. Issue auto-closes
 
 ### Editor Setup (Recommended)
+
 - ESLint plugin
-- Prettier plugin  
+- Prettier plugin
 - TypeScript support
 - Stylelint plugin
 
 ### Detailed Code Standards
 
 **JavaScript/TypeScript**
+
 - Follow team standards with ESLint + Prettier
 
-**HTML** 
+**HTML**
+
 - WCAG Level AA compliant
 - Use semantic tags (not just divs/spans)
 - Keyboard accessible with visible focus states
 - Responsive design (mobile to desktop)
 
 **CSS**
+
 - Use design tokens, no hardcoded values
 - Prefer rem/em over px
 - No component library overrides
 
 **Python**
+
 - Follow PEP8 and [Python Guide](https://docs.python-guide.org/writing/style/)
 
 ### Code Review Guidelines
+
 - Get review from domain expert + tech expert
 - Address all comments before next iteration
 - Add screenshots/GIFs for UI changes

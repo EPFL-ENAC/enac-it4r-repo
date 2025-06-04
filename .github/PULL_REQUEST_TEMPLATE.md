@@ -11,7 +11,7 @@
 Please check the type that applies:
 
 - [ ] 🐛 Bug fix
-- [ ] ✨ New feature  
+- [ ] ✨ New feature
 - [ ] 📝 Documentation update
 - [ ] 🎨 Design/UI improvement
 - [ ] 🔧 Configuration change
@@ -20,6 +20,7 @@ Please check the type that applies:
 ## How to test this
 
 <!-- How can reviewers verify this works? -->
+
 - [ ] I've tested this change locally
 - [ ] Steps to test: (describe if needed)
 

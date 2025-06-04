@@ -1,11 +1,11 @@
 # https://github.com/EPFL-ENAC/epfl-enac-build-push-deploy-action#readme
 name: deploy
 
-'on':
+"on":
   push:
     branches:
       - dev
-    tags: ['v*.*.*']
+    tags: ["v*.*.*"]
 
 jobs:
   deploy:

@@ -17,7 +17,6 @@ commit-msg:
 #       tags: frontend typescript
 #       run: npm run type-check
 
-
 pre-commit:
   parallel: true
   commands:
@@ -33,4 +32,3 @@ pre-commit:
     #   glob: "*.{css,scss}"
     #   tags: frontend stylelint
     #   run: npx stylelint {staged_files} --fix
-
