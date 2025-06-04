@@ -2,6 +2,23 @@
 
 Template with licences / github templates and contributing processes
 
+## Setup
+
+To set up the development environment and git hooks, run:
+
+```bash
+make install
+```
+
+This will install npm dependencies and configure git hooks using Lefthook.
+
+## Available Commands
+
+- `make install` - Install dependencies and set up git hooks
+- `make clean` - Clean node_modules and package-lock.json  
+- `make uninstall` - Remove git hooks and clean dependencies
+- `make help` - Show available commands
+
 # Todo when setting up your github repo
 
 - [ ] Replace `{YOUR-REPO-NAME}` in all files by the name of your repo

@@ -2,9 +2,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "husky": "^8.0.1"
-  },
-  "scripts": {
-    "prepare": "husky install"
+    "@evilmartians/lefthook": "^1.5.0"
   }
 }
