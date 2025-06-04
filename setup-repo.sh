@@ -118,7 +118,6 @@ else
 fi
 prompt_input "Main researchers (comma-separated)" "" "RESEARCHERS"
 prompt_input "Lead developer GitHub username (for issue assignments)" "" "LEAD_DEV"
-prompt_input "GitHub assignee username (for issue templates)" "" "ASSIGNEE_USERNAME"
 
 echo
 prompt_yn "Does your project support internationalization (i18n)?" "n" "SUPPORTS_I18N"
@@ -316,10 +315,10 @@ for file in .github/workflows/*.yml .github/ISSUE_TEMPLATE/*.md .github/PULL_REQ
 done
 
 # Update assignees if files exist
-if [ -n "$ASSIGNEE_USERNAME" ]; then
+if [ -n "$LEAD_DEV" ]; then
     for file in .github/ISSUE_TEMPLATE/*.md .github/ISSUE_TEMPLATE/*.yml .github/PULL_REQUEST_TEMPLATE.md; do
         if [ -f "$file" ]; then
-            sed -i '' "s/githubusernameassignee/$ASSIGNEE_USERNAME/g" "$file"
+            sed -i '' "s/githubusernameassignee/$LEAD_DEV/g" "$file"
             print_success "Updated assignee in $file"
         fi
     done
@@ -334,7 +333,6 @@ echo "   • Description: $DESCRIPTION"
 echo "   • Lab name: $LAB_NAME"
 echo "   • Main researchers: $RESEARCHERS_FORMATTED"
 echo "   • Lead developer: $LEAD_DEV"
-echo "   • GitHub assignee: $ASSIGNEE_USERNAME"
 echo "   • Platform domain: $PLATFORM_DOMAIN"
 echo "   • Is web platform: $([ "$IS_WEB_PLATFORM" = true ] && echo "Yes" || echo "No")"
 echo "   • Internationalization: $([ "$SUPPORTS_I18N" = true ] && echo "Yes" || echo "No")"
