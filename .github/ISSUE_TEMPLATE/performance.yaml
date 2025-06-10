@@ -1,5 +1,4 @@
 ---
-
 name: 🐌 Performance Issue
 description: Report slow loading, freezing, or other performance problems
 title: "[Performance]: "
@@ -33,7 +32,7 @@ body:
     id: frequency
     attributes:
       label: How often does this happen?
-      options: 
+      options:
         - "Every time"
         - "Most of the time"
         - "Sometimes"
@@ -45,7 +44,7 @@ body:
     id: device-type
     attributes:
       label: What device are you using?
-      options: 
+      options:
         - "Desktop/Laptop"
         - "Tablet"
         - "Mobile phone"
@@ -56,7 +55,7 @@ body:
     id: browser
     attributes:
       label: Which browser?
-      options: 
+      options:
         - "Chrome"
         - "Firefox"
         - "Safari"
@@ -83,6 +82,6 @@ body:
     id: terms
     attributes:
       label: Before submitting
-      options: 
+      options:
         - label: I've checked that this performance issue hasn't already been reported
           required: true

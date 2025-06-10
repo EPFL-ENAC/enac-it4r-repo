@@ -1,5 +1,4 @@
 ---
-
 name: ✨ Feature Request
 description: Suggest a new feature or improvement
 title: "[Feature]: "
@@ -34,7 +33,7 @@ body:
     id: priority
     attributes:
       label: How important is this for your work?
-      options: 
+      options:
         - "Would be nice to have"
         - "Would help me work more efficiently"
         - "I really need this to do my job"
