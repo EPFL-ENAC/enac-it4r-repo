@@ -5,7 +5,26 @@
 node_modules/
 package-lock.json
 npm-shrinkwrap.json
+.python-version
+# Python files and environments
+backend/.venv/*
+backend/**/*.py
+backend/.dockerignore
+**/__pycache__/
+*.pyc
 
+# Docker files
+Dockerfile
+docker-compose.yml
+*.dockerfile
+CHANGELOG.md
+# Environment and config files
+.env
+.env.*
+requirements.txt
+.gitattributes
+
+frontend/.quasar/*
 # Makefiles
 Makefile
 *.mk
@@ -29,6 +48,8 @@ Makefile
 # Other config files that don't need formatting
 .editorconfig
 lefthook.yml
+**/**.yml
+**/**.yaml
 commitlint.config.js
 
 # CITATION files
